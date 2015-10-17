@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="components.js"></script>
+    <script src="app.js"></script>
+
+  </head>
+
+  <body ng-controller="MainCtrl">
+
+   <div style="margin-bottom: 10px;"></div>  
+
+   <tabs config="tabsOptions">
+      <pane title="Event information" templatename="tplEvents.html"></pane>
+      <pane title="Members attending" templatename="tplMembers.html"></pane>
+    </tabs>
+    
+  </body>
+
+</html>

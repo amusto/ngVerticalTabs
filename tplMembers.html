@@ -1,0 +1,8 @@
+<div class="tab-pane" ng-class="{active: selected}">
+  <div ng-controller="membersCtrl">
+    <h3>Members</h3>
+    
+      <div style="float:left; width:100%;" ng-repeat="member in members">Name:{{member.name}} Age:{{member.age}}</div>
+
+  </div>
+</div>

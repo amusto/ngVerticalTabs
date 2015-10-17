@@ -1,0 +1,12 @@
+<div class="tab-pane" ng-class="{active: selected}">
+  <div ng-controller="eventsCtrl">
+
+      <h3>Event details</h3>
+      <p>
+        Event: {{event.name}}<br>
+        Date: {{event.date | date : shortDate}}<br>
+        Location: {{event.location}}
+      </p>
+
+  </div>
+</div>

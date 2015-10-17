@@ -1,0 +1,17 @@
+#tab-list {
+  padding-right: 0px;  
+}
+
+.nav {
+  cursor: pointer;
+}
+
+.nav-pills>li.active>a {
+  border-radius: 4px 0px 0px 4px;              
+}
+
+.tab-content {
+    border-radius: 0px;
+    border: 2px solid #428bca;
+    min-height: 300px;
+}      
